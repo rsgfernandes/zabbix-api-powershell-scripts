@@ -2,7 +2,7 @@
 #zabbix endpoint connection
 $ZABBIX_USER="tyoe your zabbix user"
 $ZABBIX_PASS="type your zabbix password"
-$uri="http://zabbix.zap.net.br/api_jsonrpc.php"
+$uri="$uri="http://yourzabbixurl/api_jsonrpc.php""
 $hostipaddress=((ipconfig | findstr [0-9].\.)[0]).Split()[-1]
 $filepath='c:\windows\temp\zabbix-hostid.txt'
 
